@@ -553,18 +553,18 @@ CAM Table di switch menyimpan MAC address dan port, sehingga frame bisa dikirim 
 
 CEF Table di router menyimpan informasi routing yang sudah dioptimalkan, sehingga paket bisa diteruskan dengan cepat tanpa perlu lookup berulang di routing table.
 
-Kesimpulan Lab
+## Kesimpulan Lab
 Dalam lab ini kita berhasil:
 
-Membangun topologi jaringan sesuai desain.
+- Membangun topologi jaringan sesuai desain.
 
-Mengkonfigurasi Inter-VLAN Routing pada Layer 3 Switch (SW-1) menggunakan SVI.
+- Mengkonfigurasi Inter-VLAN Routing pada Layer 3 Switch (SW-1) menggunakan SVI.
 
-Mengkonfigurasi Router-on-a-Stick pada R2 untuk VLAN 75 dan VLAN 85.
+- Mengkonfigurasi Router-on-a-Stick pada R2 untuk VLAN 75 dan VLAN 85.
 
-Mengaktifkan static routing di R1 dan R2 untuk memastikan komunikasi end-to-end antar semua host.
+- Mengaktifkan static routing di R1 dan R2 untuk memastikan komunikasi end-to-end antar semua host.
 
-Memeriksa CAM dan CEF tables untuk memahami bagaimana perangkat melakukan forwarding frame dan paket dengan efisien.
+- Memeriksa CAM dan CEF tables untuk memahami bagaimana perangkat melakukan forwarding frame dan paket dengan efisien.
 
 📌 Hasil akhir: Semua PC (PC1, PC2, PC3, PC4) dapat saling berkomunikasi baik dengan IPv4 maupun IPv6. Lab ini menunjukkan bagaimana kombinasi Layer 3 Switch + Router-on-a-Stick + Static Routing dapat digunakan untuk mendukung komunikasi antar VLAN dalam sebuah jaringan kompleks.
 

@@ -241,6 +241,7 @@ PC1> ping 10.2.60.50
 PC1> ping 2001:db8:acad:1060::50
 ```
 Jika berhasil, berarti SW-1 sudah melakukan Inter-VLAN Routing dengan benar.
+
 <img width="417" height="239" alt="image" src="https://github.com/user-attachments/assets/8cf52ca9-6914-4a6e-b7c6-59eebfeb889b" />
 
 #### h. Periksa MAC Address Table

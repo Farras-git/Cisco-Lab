@@ -524,10 +524,13 @@ Pada bagian ini, kita akan melihat bagaimana perangkat menyimpan informasi forwa
 
 ### Step 1: Periksa tabel CAM pada switch
 Gunakan perintah berikut di SW-1 atau SW-2:
-```bash
+```
 SW-1# show mac address-table dynamic
 SW-2# show mac address-table dynamic
 ```
+<img width="335" height="135" alt="Screenshot 2026-03-23 173501" src="https://github.com/user-attachments/assets/d33531b9-726c-48ec-a206-89297f46e396" />
+<img width="342" height="139" alt="Screenshot 2026-03-23 173606" src="https://github.com/user-attachments/assets/24abef45-6f95-4ccd-8eba-8eeea65c8efd" />
+
 Output akan menampilkan MAC address host (PC1, PC2, PC3, PC4) beserta port yang terhubung. Ini menunjukkan bagaimana switch melakukan forwarding berdasarkan MAC address.
 
 ### Step 2: Periksa tabel routing dan CEF pada router
@@ -538,12 +541,24 @@ R1# show ip route
 R1# show ipv6 route
 R1# show ip cef
 R1# show ipv6 cef
-
-R2# show ip route
-R2# show ipv6 route
-R2# show ip cef
-R2# show ipv6 cef
 ```
+R2# show ip route
+
+<img width="566" height="316" alt="Screenshot 2026-03-23 173744" src="https://github.com/user-attachments/assets/0a6204ec-76a9-453d-bbd8-7799a88a8d15" />
+
+R2# show ipv6 route
+
+<img width="546" height="409" alt="Screenshot 2026-03-23 173825" src="https://github.com/user-attachments/assets/10e90f5a-9c24-47d9-a202-8fdde5d871e9" />
+
+R2# show ip cef
+
+<img width="472" height="377" alt="Screenshot 2026-03-23 173848" src="https://github.com/user-attachments/assets/316044a2-25c5-4e76-91bf-a6167b9c4752" />
+
+R2# show ipv6 cef
+
+<img width="376" height="375" alt="Screenshot 2026-03-23 173910" src="https://github.com/user-attachments/assets/ed5e3e10-9046-4b1e-8638-257aa49d3acb" />
+
+
 Routing Table: Menunjukkan jaringan yang dikenal oleh router.
 
 CEF (Cisco Express Forwarding): Menunjukkan FIB (Forwarding Information Base) dan adjacency table yang digunakan untuk forwarding cepat.

@@ -205,7 +205,7 @@ D1# show spanning-tree
 <img width="593" height="621" alt="image" src="https://github.com/user-attachments/assets/592b9512-b200-4620-b1dc-ed1c2d16bef2" />
 
 
-####🔹 A1
+#### 🔹 A1
 ```bash
 A1# show spanning-tree
 ```
